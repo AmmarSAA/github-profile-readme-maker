@@ -51,11 +51,6 @@ export default function Home() {
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2314340578474791"
             crossorigin="anonymous"
         ></script>
-        // <script
-        //   async
-        //   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7377463303850503"
-        //   crossOrigin="anonymous"
-        // ></script>
       </Head>
       {/* Google Analytics */}
       // <Script
