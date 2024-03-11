@@ -46,29 +46,34 @@ export default function Home() {
         />
         <link rel="icon" href="/logo.png" />
         {/* Google Ads */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7377463303850503"
-          crossOrigin="anonymous"
+        <script 
+            async 
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2314340578474791"
+            crossorigin="anonymous"
         ></script>
+        // <script
+        //   async
+        //   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7377463303850503"
+        //   crossOrigin="anonymous"
+        // ></script>
       </Head>
       {/* Google Analytics */}
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-9FEXPTFC17"
-      />
-      <Script
-        id="google-analytics"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-9FEXPTFC17', { page_path: window.location.pathname });
-            `,
-        }}
-      />
+      // <Script
+      //   async
+      //   src="https://www.googletagmanager.com/gtag/js?id=G-9FEXPTFC17"
+      // />
+      // <Script
+      //   id="google-analytics"
+      //   strategy="afterInteractive"
+      //   dangerouslySetInnerHTML={{
+      //     __html: `
+      //         window.dataLayer = window.dataLayer || [];
+      //         function gtag(){dataLayer.push(arguments);}
+      //         gtag('js', new Date());
+      //         gtag('config', 'G-9FEXPTFC17', { page_path: window.location.pathname });
+      //       `,
+      //   }}
+      // />
       <>
         <CrispBanner />
         <div className="overflow-x-hidden max-w-[100vw] p-3 md:p-4 text-green-200">
