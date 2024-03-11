@@ -47,7 +47,7 @@ export default function Home() {
         <link rel="icon" href="/logo.png" />
         {/* Google Ads */}
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2314340578474791"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
       </Head>
       <>
         <CrispBanner />
