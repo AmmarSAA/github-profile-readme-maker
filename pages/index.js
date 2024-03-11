@@ -52,23 +52,6 @@ export default function Home() {
             crossorigin="anonymous"
         ></script>
       </Head>
-      {/* Google Analytics */}
-      // <Script
-      //   async
-      //   src="https://www.googletagmanager.com/gtag/js?id=G-9FEXPTFC17"
-      // />
-      // <Script
-      //   id="google-analytics"
-      //   strategy="afterInteractive"
-      //   dangerouslySetInnerHTML={{
-      //     __html: `
-      //         window.dataLayer = window.dataLayer || [];
-      //         function gtag(){dataLayer.push(arguments);}
-      //         gtag('js', new Date());
-      //         gtag('config', 'G-9FEXPTFC17', { page_path: window.location.pathname });
-      //       `,
-      //   }}
-      // />
       <>
         <CrispBanner />
         <div className="overflow-x-hidden max-w-[100vw] p-3 md:p-4 text-green-200">
